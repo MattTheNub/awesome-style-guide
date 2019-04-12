@@ -27,7 +27,24 @@
         "no-inner-declarations": "error",
         "no-invalid-regexp": "error",
         "no-irregular-whitespace": "error",
-        "no-misleading-character-class": "error"
+        "no-misleading-character-class": "error",
+        "no-obj-calls": "error",
+        "no-prototype-builtins": "off",
+        "no-regex-spaces": "error",
+        "no-sparse-arrays": "error",
+        "no-unexpected-multiline": "error",
+        "no-unreachable": "error",
+        "no-unsafe-finally": "error",
+        "no-unsafe-negation": "error",
+        "require-atomic-updates": "off",
+        "use-isnan": "error",
+        "valid-typeof": "error",
+        
+        "accessor-pairs": "error",
+        "array-callback-return": "error",
+        "block-scoped-var": "error",
+        "class-methods-use-this": "warn",
+        
       }
     },
     {
@@ -39,7 +56,8 @@
     {
       "version": [6, 2015],
       "rules": {
-        "no-inner-declarations": "off"
+        "no-inner-declarations": "off",
+        "no-template-curly-in-string": "error"
       }
     }
   ]
