@@ -1,0 +1,45 @@
+{
+  "rulesets": [
+    {
+      "version": "any",
+      "rules": {
+        "for-direction": "error",
+        "no-compare-neg-zero": "error",
+        "no-cond-assign": ["error", "except-parens"],
+        "no-console": "off",
+        "no-constant-condition": ["error", { "checkLoops": false }],
+        "no-control-regex": "error",
+        "no-debugger": "error",
+        "no-dupe-args": "error",
+        "no-dupe-keys": "error",
+        "no-duplicate-case": "error",
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "no-empty-character-class": "error",
+        "no-ex-assign": "error",
+        "no-extra-boolean-cast": "error",
+        "no-extra-parens": ["error", {
+          "conditionalAssign": true,
+          "returnAssign": true,
+          "ignoreJSX": "multi-line"
+        }],
+        "no-extra-semi": "error",
+        "no-func-assign": "error",
+        "no-inner-declarations": "error",
+        "no-invalid-regexp": "error",
+        "no-irregular-whitespace": "error",
+        "no-misleading-character-class": "error"
+      }
+    },
+    {
+      "version": [5, 2014],
+      "rules": {
+        "getter-return": "error"
+      }
+    },
+    {
+      "version": [6, 2015],
+      "rules": {
+        "no-inner-declarations": "off"
+      }
+    }
+}
